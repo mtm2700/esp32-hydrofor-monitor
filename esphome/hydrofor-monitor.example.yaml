@@ -1,0 +1,70 @@
+# Reference for Olimex ESP32-POE-ISO Rev.M with ESP32-WROOM-32E.
+# Set your own hydrofor_api_key in the local secrets.yaml before validation.
+esphome:
+  name: hydrofor-monitor
+  friendly_name: Hydrofor pressure monitor
+
+esp32:
+  board: esp32dev
+  flash_size: 4MB
+  framework:
+    type: esp-idf
+
+logger:
+
+api:
+  encryption:
+    key: !secret hydrofor_api_key
+
+ethernet:
+  type: LAN8720
+  mdc_pin: GPIO23
+  mdio_pin: GPIO18
+  clk:
+    pin: GPIO17
+    mode: CLK_OUT
+  phy_addr: 0
+  power_pin:
+    number: GPIO12
+    ignore_strapping_warning: true
+
+i2c:
+  id: adc_bus
+  sda: GPIO13
+  scl: GPIO16
+  scan: true
+  frequency: 100kHz
+
+ads1115:
+  - id: pressure_adc
+    i2c_id: adc_bus
+    address: 0x48
+
+sensor:
+  - platform: ads1115
+    ads1115_id: pressure_adc
+    id: a0_voltage
+    name: ADC A0 voltage
+    multiplexer: A0_GND
+    gain: 4.096
+    sample_rate: 128
+    unit_of_measurement: V
+    accuracy_decimals: 3
+    update_interval: 1s
+
+  - platform: copy
+    source_id: a0_voltage
+    name: Water pressure
+    unit_of_measurement: bar
+    device_class: pressure
+    state_class: measurement
+    accuracy_decimals: 2
+    force_update: true
+    filters:
+      # Nominal 0-150 psi, 0.5-4.5 V sensor and a 1:2 divider.
+      - calibrate_linear:
+          method: exact
+          datapoints:
+            - 0.250000000 -> 0.0000000000
+            - 2.250000000 -> 10.3421359395
+      - timeout: 5s
