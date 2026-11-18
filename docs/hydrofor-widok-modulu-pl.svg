@@ -1,0 +1,237 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="980" viewBox="0 0 1440 980" xml:lang="pl" role="img" aria-labelledby="title desc">
+<title id="title">Okablowanie modułu hydroforu</title>
+<desc id="desc">Switch PoE zasila Olimex. EXT1.1 dostarcza 5 V do VCC czujnika, EXT1.2 dostarcza 3,3 V do ADS1115 VDD, a EXT1.3 łączy masę układu. EXT2.10 to SDA GPIO13, a EXT2.7 to SCL GPIO16. OUT czujnika przez R1 10 kΩ dochodzi do A0. R2 10 kΩ i C4ext 100 nF łączą równolegle A0 ze wspólną masą. C1ext i C2ext po 100 nF łączą odpowiednio szynę 3,3 V i 5 V z GND. ADDR do GND daje adres 0x48.</desc>
+<defs>
+<linearGradient id="metal"><stop stop-color="#edf2f6"/><stop offset=".48" stop-color="#c8d4df"/><stop offset="1" stop-color="#f6f8fa"/></linearGradient>
+<linearGradient id="cover" x2="0" y2="1"><stop stop-color="#293b4f"/><stop offset="1" stop-color="#14263a"/></linearGradient>
+<pattern id="holes" x="889" y="498" width="15" height="15" patternUnits="userSpaceOnUse"><circle cx="6" cy="6" r="2.4" fill="#d9bb87"/><circle cx="6" cy="6" r="1" fill="#f9edce"/></pattern>
+</defs>
+<rect x="0" y="0" width="1440" height="980" rx="0" fill="white" stroke="none" stroke-width="2"/>
+<text x="48" y="75" fill="#14263a" font-family="Segoe UI, Arial, sans-serif" font-size="46" font-weight="700" text-anchor="start">Okablowanie modułu hydroforu</text>
+<text x="51" y="114" fill="#455a71" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="400" text-anchor="start">Widok poglądowy montażu • Olimex ESP32-POE-ISO Rev.M • ADS1115</text>
+<rect x="232" y="165" width="926" height="668" rx="23" fill="#f3f7fa" stroke="#9daec0" stroke-width="2.5"/>
+<rect x="246" y="179" width="898" height="638" rx="14" fill="#fff" stroke="#c6d3df" stroke-width="1.3"/>
+<text x="265" y="215" fill="#455a71" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="700" text-anchor="start">Obudowa modułu</text>
+<circle cx="1132" cy="189" r="7" fill="#e5ebf1" stroke="#9daec0" stroke-width="1.2"/>
+<polyline points="1129,189 1135,189" fill="none" stroke="#9daec0" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1132" cy="804" r="7" fill="#e5ebf1" stroke="#9daec0" stroke-width="1.2"/>
+<polyline points="1129,804 1135,804" fill="none" stroke="#9daec0" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="259" cy="804" r="7" fill="#e5ebf1" stroke="#9daec0" stroke-width="1.2"/>
+<polyline points="256,804 262,804" fill="none" stroke="#9daec0" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="226" y="393" width="16" height="34" rx="4" fill="#dce5ed" stroke="#8497aa" stroke-width="1.5"/>
+<rect x="1149" y="246" width="16" height="184" rx="4" fill="#dce5ed" stroke="#8497aa" stroke-width="1.5"/>
+<rect x="37" y="350" width="160" height="119" rx="10" fill="#edf4fa" stroke="#9daec0" stroke-width="1.8"/>
+<text x="117" y="380" fill="#14263a" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="700" text-anchor="middle">Switch PoE</text>
+<text x="117" y="402" fill="#2768ae" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600" text-anchor="middle">802.3af</text>
+<rect x="54" y="416" width="20" height="17" rx="2" fill="#25384b" stroke="#15263a" stroke-width="1"/>
+<polyline points="59,421 69,421" fill="none" stroke="#a8cbe8" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="90" y="416" width="20" height="17" rx="2" fill="#25384b" stroke="#15263a" stroke-width="1"/>
+<polyline points="95,421 105,421" fill="none" stroke="#a8cbe8" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="126" y="416" width="20" height="17" rx="2" fill="#25384b" stroke="#15263a" stroke-width="1"/>
+<polyline points="131,421 141,421" fill="none" stroke="#a8cbe8" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="162" y="416" width="20" height="17" rx="2" fill="#25384b" stroke="#15263a" stroke-width="1"/>
+<polyline points="167,421 177,421" fill="none" stroke="#a8cbe8" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="180" cy="448" r="3" fill="#1c845d" stroke="none" stroke-width="1"/>
+<polyline points="117,469 117,599" fill="none" stroke="#2768ae" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" data-net="LAN" stroke-dasharray="8 7"/>
+<text x="130" y="542" fill="#2768ae" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="650" text-anchor="start">LAN</text>
+<rect x="37" y="599" width="160" height="84" rx="10" fill="#edf4fa" stroke="#9daec0" stroke-width="1.8"/>
+<text x="117" y="636" fill="#14263a" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" text-anchor="middle">Home Assistant</text>
+<text x="117" y="660" fill="#455a71" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="400" text-anchor="middle">Historia ciśnienia</text>
+<text x="267" y="274" fill="#14263a" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="start">Olimex ESP32-POE-ISO</text>
+<text x="269" y="297" fill="#455a71" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="400" text-anchor="start">Rev.M · ESP32-WROOM-32E</text>
+<rect x="270" y="313" width="272" height="239" rx="13" fill="#f9e4de" stroke="#a84235" stroke-width="2.3"/>
+<rect x="265" y="382" width="54" height="55" rx="6" fill="url(#metal)" stroke="#73899e" stroke-width="1.6"/>
+<rect x="271" y="395" width="36" height="29" rx="3" fill="#293d51" stroke="#728598" stroke-width="1.2"/>
+<polyline points="196,410 286,410" fill="none" stroke="#2768ae" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" data-net="PoE Ethernet"/>
+<text x="117" y="330" fill="#2768ae" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="650" text-anchor="middle">Ethernet + PoE</text>
+<rect x="449" y="317" width="62" height="14" rx="3" fill="url(#metal)" stroke="#8796a7" stroke-width="1"/>
+<rect x="511" y="317" width="22" height="14" rx="2" fill="#293d51" stroke="none" stroke-width="0"/>
+<polyline points="516,321 521,321 521,327 525,327 525,321 529,321" fill="none" stroke="#adbdcc" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="336" cy="392" r="14" fill="#4a6278" stroke="#32485b" stroke-width="1.2"/>
+<polyline points="329,392 343,392" fill="none" stroke="#d3dfe7" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="289" cy="331" r="4" fill="#f7d2a2" stroke="#a96e4c" stroke-width="1.2"/>
+<circle cx="289" cy="534" r="4" fill="#f7d2a2" stroke="#a96e4c" stroke-width="1.2"/>
+<circle cx="356" cy="534" r="4" fill="#f7d2a2" stroke="#a96e4c" stroke-width="1.2"/>
+<rect x="309" y="458" width="38" height="61" rx="3" fill="#263b4d" stroke="none" stroke-width="0"/>
+<circle cx="319" cy="467" r="2.1" fill="#dfebf4" stroke="none" stroke-width="1"/>
+<circle cx="319" cy="477" r="2.1" fill="#dfebf4" stroke="none" stroke-width="1"/>
+<circle cx="319" cy="487" r="2.1" fill="#dfebf4" stroke="none" stroke-width="1"/>
+<circle cx="319" cy="497" r="2.1" fill="#dfebf4" stroke="none" stroke-width="1"/>
+<circle cx="319" cy="507" r="2.1" fill="#dfebf4" stroke="none" stroke-width="1"/>
+<circle cx="332" cy="467" r="2.1" fill="#dfebf4" stroke="none" stroke-width="1"/>
+<circle cx="332" cy="477" r="2.1" fill="#dfebf4" stroke="none" stroke-width="1"/>
+<circle cx="332" cy="487" r="2.1" fill="#dfebf4" stroke="none" stroke-width="1"/>
+<circle cx="332" cy="497" r="2.1" fill="#dfebf4" stroke="none" stroke-width="1"/>
+<circle cx="332" cy="507" r="2.1" fill="#dfebf4" stroke="none" stroke-width="1"/>
+<text x="406" y="579" fill="#455a71" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600" text-anchor="middle">UEXT wolne</text>
+<text x="528" y="353" fill="#aa372f" font-family="Segoe UI, Arial, sans-serif" font-size="15.5" font-weight="700" text-anchor="end">EXT1.1 · +5 V</text>
+<text x="528" y="398" fill="#995b12" font-family="Segoe UI, Arial, sans-serif" font-size="15.5" font-weight="700" text-anchor="end">EXT1.2 · 3,3 V</text>
+<text x="528" y="442" fill="#6949a0" font-family="Segoe UI, Arial, sans-serif" font-size="15.5" font-weight="700" text-anchor="end">EXT2.10 · SDA GPIO13</text>
+<text x="528" y="486" fill="#195990" font-family="Segoe UI, Arial, sans-serif" font-size="15.5" font-weight="700" text-anchor="end">EXT2.7 · SCL GPIO16</text>
+<text x="528" y="530" fill="#374656" font-family="Segoe UI, Arial, sans-serif" font-size="15.5" font-weight="700" text-anchor="end">EXT1.3 · GND</text>
+<text x="1051" y="212" fill="#14263a" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" text-anchor="middle">Złącze czujnika</text>
+<rect x="985" y="227" width="132" height="215" rx="9" fill="#ecf3f0" stroke="#728f88" stroke-width="2"/>
+<rect x="1001" y="243" width="100" height="48" rx="6" fill="#ddeee6" stroke="#7f9c93" stroke-width="1.2"/>
+<circle cx="1030" cy="267" r="11" fill="url(#metal)" stroke="#788d96" stroke-width="1.2"/>
+<polyline points="1025,264 1035,270" fill="none" stroke="#586a76" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1089" y="273" fill="#aa372f" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="end">VCC</text>
+<rect x="1001" y="313" width="100" height="48" rx="6" fill="#ddeee6" stroke="#7f9c93" stroke-width="1.2"/>
+<circle cx="1030" cy="337" r="11" fill="url(#metal)" stroke="#788d96" stroke-width="1.2"/>
+<polyline points="1025,334 1035,340" fill="none" stroke="#586a76" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1089" y="343" fill="#374656" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="end">GND</text>
+<rect x="1001" y="385" width="100" height="48" rx="6" fill="#ddeee6" stroke="#7f9c93" stroke-width="1.2"/>
+<circle cx="1030" cy="409" r="11" fill="url(#metal)" stroke="#788d96" stroke-width="1.2"/>
+<polyline points="1025,406 1035,412" fill="none" stroke="#586a76" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1089" y="415" fill="#087365" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="end">OUT</text>
+<text x="1304" y="215" fill="#14263a" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle">Czujnik ciśnienia</text>
+<text x="1304" y="241" fill="#455a71" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="400" text-anchor="middle">0–150 PSI · 5 V</text>
+<rect x="1223" y="257" width="150" height="101" rx="11" fill="url(#cover)" stroke="#192b3f" stroke-width="1.5"/>
+<circle cx="1232" cy="284" r="3.5" fill="#dae4ec" stroke="none" stroke-width="1"/>
+<circle cx="1232" cy="315" r="3.5" fill="#dae4ec" stroke="none" stroke-width="1"/>
+<circle cx="1232" cy="343" r="3.5" fill="#dae4ec" stroke="none" stroke-width="1"/>
+<rect x="1262" y="357" width="72" height="65" rx="5" fill="url(#metal)" stroke="#7f93a6" stroke-width="1.8"/>
+<polygon points="1251,409 1347,409 1354,424 1344,440 1253,440 1243,424" fill="url(#metal)" stroke="#7f93a6" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="1271" y="441" width="57" height="51" rx="4" fill="url(#metal)" stroke="#7f93a6" stroke-width="1.8"/>
+<polyline points="1275,450 1325,447" fill="none" stroke="#7f93a6" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1275,458 1325,455" fill="none" stroke="#7f93a6" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1275,466 1325,463" fill="none" stroke="#7f93a6" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1275,474 1325,471" fill="none" stroke="#7f93a6" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1275,482 1325,479" fill="none" stroke="#7f93a6" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1304" y="523" fill="#087365" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="650" text-anchor="middle">OUT 0,5–4,5 V</text>
+<rect x="650" y="535" width="197" height="175" rx="10" fill="#e8f3fb" stroke="#477fa8" stroke-width="2.3"/>
+<circle cx="665" cy="549" r="5" fill="#fff" stroke="#779bb8" stroke-width="1.4"/>
+<circle cx="831" cy="691" r="5" fill="#fff" stroke="#779bb8" stroke-width="1.4"/>
+<rect x="736" y="624" width="39" height="29" rx="4" fill="#25384e" stroke="none" stroke-width="0"/>
+<polyline points="740,619 740,624" fill="none" stroke="#74899e" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="740,653 740,657" fill="none" stroke="#74899e" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="749,619 749,624" fill="none" stroke="#74899e" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="749,653 749,657" fill="none" stroke="#74899e" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="758,619 758,624" fill="none" stroke="#74899e" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="758,653 758,657" fill="none" stroke="#74899e" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="767,619 767,624" fill="none" stroke="#74899e" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="767,653 767,657" fill="none" stroke="#74899e" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="757" y="578" fill="#14263a" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" text-anchor="middle">ADS1115</text>
+<text x="753" y="676" fill="#455a71" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="600" text-anchor="middle">I²C · 0x48</text>
+<text x="704" y="554" fill="#995b12" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle">VDD</text>
+<text x="663" y="598" fill="#6949a0" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">SDA</text>
+<text x="663" y="640" fill="#195990" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">SCL</text>
+<text x="833" y="607" fill="#087365" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" text-anchor="end">A0</text>
+<text x="703" y="700" fill="#374656" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle">GND</text>
+<text x="806" y="700" fill="#374656" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle">ADDR</text>
+<text x="1034" y="479" fill="#14263a" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">Dzielnik na płytce</text>
+<rect x="881" y="489" width="245" height="249" rx="11" fill="#fcf0d6" stroke="#b4945f" stroke-width="2"/>
+<rect x="888" y="496" width="231" height="235" rx="7" fill="url(#holes)" stroke="none" stroke-width="0"/>
+<circle cx="899" cy="506" r="4.5" fill="#fef9ec" stroke="#b4945f" stroke-width="1.4"/>
+<circle cx="1107" cy="506" r="4.5" fill="#fef9ec" stroke="#b4945f" stroke-width="1.4"/>
+<circle cx="899" cy="721" r="4.5" fill="#fef9ec" stroke="#b4945f" stroke-width="1.4"/>
+<circle cx="1107" cy="721" r="4.5" fill="#fef9ec" stroke="#b4945f" stroke-width="1.4"/>
+<polyline points="542,348 583,348 583,267 985,267" fill="none" stroke="#aa372f" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round" data-net="5V"/>
+<polyline points="1117,267 1184,267 1184,284 1223,284" fill="none" stroke="#aa372f" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round" data-net="5V"/>
+<text x="630" y="251" fill="#aa372f" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" text-anchor="start">+5 V</text>
+<polyline points="911,267 911,304" fill="none" stroke="#aa372f" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" data-net="5V"/>
+<polyline points="898,304 924,304" fill="none" stroke="#374656" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="898,314 924,314" fill="none" stroke="#374656" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="911,314 911,347" fill="none" stroke="#374656" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" data-net="GND"/>
+<circle cx="911" cy="267" r="5" fill="#aa372f" stroke="#fff" stroke-width="1.2"/>
+<polyline points="899,347 923,347" fill="none" stroke="#374656" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="903,352 919,352" fill="none" stroke="#374656" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="907,357 915,357" fill="none" stroke="#374656" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="884" y="307" fill="#14263a" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="end">C2ext</text>
+<text x="884" y="327" fill="#455a71" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="600" text-anchor="end">100 nF</text>
+<polyline points="985,337 968,337 968,366" fill="none" stroke="#374656" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round" data-net="GND"/>
+<polyline points="956,366 980,366" fill="none" stroke="#374656" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="960,371 976,371" fill="none" stroke="#374656" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="964,376 972,376" fill="none" stroke="#374656" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1117,337 1200,337 1200,315 1223,315" fill="none" stroke="#374656" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round" data-net="GND"/>
+<polyline points="542,393 775,393" fill="none" stroke="#995b12" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round" data-net="3V3"/>
+<polyline points="704,393 704,535" fill="none" stroke="#995b12" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round" data-net="3V3"/>
+<text x="633" y="379" fill="#995b12" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" text-anchor="start">3,3 V</text>
+<polyline points="775,393 775,441" fill="none" stroke="#995b12" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" data-net="3V3"/>
+<polyline points="762,441 788,441" fill="none" stroke="#374656" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="762,451 788,451" fill="none" stroke="#374656" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="775,451 775,481" fill="none" stroke="#374656" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" data-net="GND"/>
+<circle cx="704" cy="393" r="5" fill="#995b12" stroke="#fff" stroke-width="1.2"/>
+<circle cx="775" cy="393" r="5" fill="#995b12" stroke="#fff" stroke-width="1.2"/>
+<polyline points="763,481 787,481" fill="none" stroke="#374656" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="767,486 783,486" fill="none" stroke="#374656" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="771,491 779,491" fill="none" stroke="#374656" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="796" y="487" fill="#374656" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="650" text-anchor="start">GND</text>
+<text x="799" y="443" fill="#14263a" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start">C1ext</text>
+<text x="799" y="463" fill="#455a71" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="600" text-anchor="start">100 nF</text>
+<polyline points="542,437 609,437 609,593 650,593" fill="none" stroke="#6949a0" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round" data-net="SDA"/>
+<polyline points="542,481 576,481 576,635 650,635" fill="none" stroke="#195990" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round" data-net="SCL"/>
+<polyline points="542,525 553,525 553,785 1082,785" fill="none" stroke="#374656" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-net="GND"/>
+<polyline points="703,710 703,785" fill="none" stroke="#374656" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round" data-net="GND"/>
+<polyline points="806,710 806,785" fill="none" stroke="#374656" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round" data-net="GND"/>
+<circle cx="703" cy="785" r="5" fill="#374656" stroke="#fff" stroke-width="1.2"/>
+<circle cx="806" cy="785" r="5" fill="#374656" stroke="#fff" stroke-width="1.2"/>
+<polyline points="1082,785 1108,785" fill="none" stroke="#374656" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round" data-net="GND"/>
+<polyline points="1108,785 1108,793" fill="none" stroke="#374656" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round" data-net="GND"/>
+<polyline points="1096,793 1120,793" fill="none" stroke="#374656" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1100,798 1116,798" fill="none" stroke="#374656" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1104,803 1112,803" fill="none" stroke="#374656" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="828" y="809" fill="#374656" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="650" text-anchor="middle">Wspólna masa po stronie niskiego napięcia</text>
+<polyline points="1117,409 1183,409 1183,343 1223,343" fill="none" stroke="#087365" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round" data-net="OUT"/>
+<polyline points="985,409 928,409 928,526" fill="none" stroke="#087365" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round" data-net="OUT"/>
+<rect x="919" y="526" width="18" height="48" rx="7" fill="#f7dfac" stroke="#7e6443" stroke-width="1.8"/>
+<polyline points="923,533 933,533" fill="none" stroke="#ba985e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="923,567 933,567" fill="none" stroke="#ba985e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="950" y="550" fill="#14263a" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="start">R1 · 10 kΩ</text>
+<polyline points="928,574 928,601" fill="none" stroke="#087365" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round" data-net="A0"/>
+<polyline points="847,601 1082,601" fill="none" stroke="#087365" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round" data-net="A0"/>
+<rect x="946" y="578" width="166" height="18" rx="3" fill="#fcf0d6" stroke="none" stroke-width="0"/>
+<text x="1029" y="591" fill="#087365" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="650" text-anchor="middle">A0 ≈ 0,25–2,25 V</text>
+<circle cx="928" cy="601" r="5" fill="#087365" stroke="#fff" stroke-width="1.2"/>
+<circle cx="993" cy="601" r="5" fill="#087365" stroke="#fff" stroke-width="1.2"/>
+<circle cx="1082" cy="601" r="5" fill="#087365" stroke="#fff" stroke-width="1.2"/>
+<polyline points="993,601 993,639" fill="none" stroke="#087365" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round" data-net="A0"/>
+<rect x="984" y="639" width="18" height="42" rx="7" fill="#f7dfac" stroke="#7e6443" stroke-width="1.8"/>
+<polyline points="988,646 998,646" fill="none" stroke="#ba985e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="988,674 998,674" fill="none" stroke="#ba985e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="974" y="650" fill="#14263a" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="end">R2</text>
+<text x="974" y="671" fill="#455a71" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="650" text-anchor="end">10 kΩ</text>
+<polyline points="993,681 993,720 1082,720" fill="none" stroke="#374656" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round" data-net="GND"/>
+<polyline points="1082,601 1082,655" fill="none" stroke="#087365" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" data-net="A0"/>
+<polyline points="1069,655 1095,655" fill="none" stroke="#374656" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1069,665 1095,665" fill="none" stroke="#374656" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1082,665 1082,720" fill="none" stroke="#374656" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" data-net="GND"/>
+<text x="1062" y="651" fill="#14263a" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="end">C4ext</text>
+<text x="1062" y="674" fill="#455a71" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="650" text-anchor="end">100 nF</text>
+<polyline points="1082,720 1082,785" fill="none" stroke="#374656" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round" data-net="GND"/>
+<circle cx="1082" cy="720" r="5" fill="#374656" stroke="#fff" stroke-width="1.2"/>
+<circle cx="1082" cy="785" r="5" fill="#374656" stroke="#fff" stroke-width="1.2"/>
+<circle cx="542" cy="348" r="5" fill="#fff" stroke="#aa372f" stroke-width="2.2"/>
+<circle cx="542" cy="393" r="5" fill="#fff" stroke="#995b12" stroke-width="2.2"/>
+<circle cx="542" cy="437" r="5" fill="#fff" stroke="#6949a0" stroke-width="2.2"/>
+<circle cx="542" cy="481" r="5" fill="#fff" stroke="#195990" stroke-width="2.2"/>
+<circle cx="542" cy="525" r="5" fill="#fff" stroke="#374656" stroke-width="2.2"/>
+<circle cx="704" cy="535" r="5" fill="#fff" stroke="#995b12" stroke-width="2.2"/>
+<circle cx="650" cy="593" r="5" fill="#fff" stroke="#6949a0" stroke-width="2.2"/>
+<circle cx="650" cy="635" r="5" fill="#fff" stroke="#195990" stroke-width="2.2"/>
+<circle cx="847" cy="601" r="5" fill="#fff" stroke="#087365" stroke-width="2.2"/>
+<circle cx="703" cy="710" r="5" fill="#fff" stroke="#374656" stroke-width="2.2"/>
+<circle cx="806" cy="710" r="5" fill="#fff" stroke="#374656" stroke-width="2.2"/>
+<circle cx="985" cy="267" r="5" fill="#fff" stroke="#aa372f" stroke-width="2.2"/>
+<circle cx="1117" cy="267" r="5" fill="#fff" stroke="#aa372f" stroke-width="2.2"/>
+<circle cx="985" cy="337" r="5" fill="#fff" stroke="#374656" stroke-width="2.2"/>
+<circle cx="1117" cy="337" r="5" fill="#fff" stroke="#374656" stroke-width="2.2"/>
+<circle cx="985" cy="409" r="5" fill="#fff" stroke="#087365" stroke-width="2.2"/>
+<circle cx="1117" cy="409" r="5" fill="#fff" stroke="#087365" stroke-width="2.2"/>
+<polyline points="48,851 1392,851" fill="none" stroke="#c0cedb" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="50,881 76,881" fill="none" stroke="#2768ae" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="86" y="887" fill="#14263a" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="650" text-anchor="start">PoE / LAN</text>
+<polyline points="219,881 245,881" fill="none" stroke="#aa372f" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="255" y="887" fill="#14263a" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="650" text-anchor="start">+5 V</text>
+<polyline points="341,881 367,881" fill="none" stroke="#995b12" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="377" y="887" fill="#14263a" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="650" text-anchor="start">3,3 V</text>
+<polyline points="466,881 492,881" fill="none" stroke="#6949a0" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="502" y="887" fill="#14263a" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="650" text-anchor="start">SDA</text>
+<polyline points="579,881 605,881" fill="none" stroke="#195990" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="615" y="887" fill="#14263a" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="650" text-anchor="start">SCL</text>
+<polyline points="693,881 719,881" fill="none" stroke="#087365" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="729" y="887" fill="#14263a" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="650" text-anchor="start">OUT / A0</text>
+<polyline points="860,881 886,881" fill="none" stroke="#374656" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="896" y="887" fill="#14263a" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="650" text-anchor="start">Wspólna masa</text>
+<text x="49" y="923" fill="#14263a" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="600" text-anchor="start">Przewody czujnika   czerwony +5 V · czarny GND · zielony OUT</text>
+<text x="49" y="953" fill="#455a71" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="400" text-anchor="start">Kolejność zacisków czujnika jest poglądowa. Fizyczne piny Olimexa pokazuje mapa A4.</text>
+</svg>

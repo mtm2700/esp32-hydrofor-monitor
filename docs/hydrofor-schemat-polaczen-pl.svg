@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 1000" width="1240" height="1000" role="img" aria-labelledby="title description">
+<title id="title">Schemat połączeń modułu hydroforu</title>
+<desc id="description">Czujnik 0–150 PSI, zasilany 5 V z EXT1.1, podaje sygnał przez R1 10 kΩ do A0 przetwornika ADS1115. R2 10 kΩ i C4ext 100 nF łączą A0 z GND równolegle. VDD ADS1115 jest połączone z 3,3 V EXT1.2, a ADDR i GND ze wspólną masą EXT1.3. SDA to GPIO13 na EXT2.10, SCL to GPIO16 na EXT2.7. C1ext i C2ext to kondensatory 100 nF od odpowiednich zasilań do GND.</desc>
+<rect width="100%" height="100%" fill="#fff"/>
+<text x="55" y="73" font-family="Segoe UI,Arial,sans-serif" font-size="43" font-weight="700" fill="#152638" text-anchor="start">Schemat połączeń modułu hydroforu</text>
+<text x="57" y="114" font-family="Segoe UI,Arial,sans-serif" font-size="22" font-weight="400" fill="#425671" text-anchor="start">Olimex ESP32-POE-ISO Rev.M  •  ESP32-WROOM-32E  •  ADS1115</text>
+<rect x="42" y="145" width="1156" height="503" rx="12" fill="#ffffff" stroke="#c4d1de" stroke-width="2"/>
+<rect x="42" y="670" width="1156" height="289" rx="12" fill="#ffffff" stroke="#c4d1de" stroke-width="2"/>
+<rect x="82" y="297" width="246" height="151" rx="8" fill="#f2f6fa" stroke="#c4d1de" stroke-width="2"/>
+<text x="103" y="341" font-family="Segoe UI,Arial,sans-serif" font-size="27" font-weight="700" fill="#152638" text-anchor="start">Czujnik ciśnienia</text>
+<text x="103" y="367" font-family="Segoe UI,Arial,sans-serif" font-size="20" font-weight="400" fill="#425671" text-anchor="start">0–150 PSI</text>
+<text x="205" y="320" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" fill="#a0352c" text-anchor="middle">VCC</text>
+<text x="310" y="402" font-family="Segoe UI,Arial,sans-serif" font-size="19" font-weight="700" fill="#087366" text-anchor="end">OUT</text>
+<text x="205" y="436" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" fill="#35485b" text-anchor="middle">GND</text>
+<text x="205" y="190" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="700" fill="#a0352c" text-anchor="middle">+5 V · EXT1.1</text>
+<polyline points="205,204 360,204" fill="none" stroke="#a0352c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" data-net="+5 V"/>
+<polyline points="205,204 205,297" fill="none" stroke="#a0352c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" data-net="+5 V"/>
+<circle cx="205" cy="204" r="4" fill="#a0352c" stroke="#a0352c" stroke-width="2"/>
+<circle cx="360" cy="204" r="4" fill="#a0352c" stroke="#a0352c" stroke-width="2"/>
+<polyline points="360,204 360,238" fill="none" stroke="#a0352c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" data-net="+5 V"/>
+<polyline points="345,238 375,238" fill="none" stroke="#35485b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="345,248 375,248" fill="none" stroke="#35485b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="360,248 360,276" fill="none" stroke="#35485b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" data-net="GND"/>
+<polyline points="347,276 373,276" fill="none" stroke="#35485b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="352,281 368,281" fill="none" stroke="#35485b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="357,286 363,286" fill="none" stroke="#35485b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="382" y="240" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="700" fill="#152638" text-anchor="start">C2ext</text>
+<text x="382" y="261" font-family="Segoe UI,Arial,sans-serif" font-size="17" font-weight="400" fill="#425671" text-anchor="start">100 nF</text>
+<text x="382" y="283" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="400" fill="#425671" text-anchor="start">przy złączu czujnika</text>
+<polyline points="205,448 205,570" fill="none" stroke="#35485b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" data-net="GND"/>
+<polyline points="328,395 411,395" fill="none" stroke="#087366" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" data-net="OUT"/>
+<rect x="411" y="384" width="86" height="22" rx="0" fill="#ffffff" stroke="#087366" stroke-width="3"/>
+<text x="454" y="367" font-family="Segoe UI,Arial,sans-serif" font-size="20" font-weight="700" fill="#087366" text-anchor="middle">R1 · 10 kΩ</text>
+<polyline points="497,395 826,395" fill="none" stroke="#087366" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" data-net="A0"/>
+<circle cx="563" cy="395" r="5" fill="#087366" stroke="#087366" stroke-width="2"/>
+<circle cx="683" cy="395" r="5" fill="#087366" stroke="#087366" stroke-width="2"/>
+<text x="669" y="366" font-family="Segoe UI,Arial,sans-serif" font-size="19" font-weight="700" fill="#087366" text-anchor="middle">A0 · 0,25–2,25 V nominalnie</text>
+<text x="359" y="427" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="400" fill="#087366" text-anchor="start">0,5–4,5 V</text>
+<polyline points="563,395 563,463" fill="none" stroke="#087366" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" data-net="A0"/>
+<rect x="552" y="463" width="22" height="47" rx="0" fill="#ffffff" stroke="#087366" stroke-width="3"/>
+<polyline points="563,510 563,570" fill="none" stroke="#35485b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" data-net="GND"/>
+<text x="540" y="485" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="700" fill="#087366" text-anchor="end">R2</text>
+<text x="540" y="507" font-family="Segoe UI,Arial,sans-serif" font-size="17" font-weight="400" fill="#425671" text-anchor="end">10 kΩ</text>
+<polyline points="683,395 683,481" fill="none" stroke="#087366" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" data-net="A0"/>
+<polyline points="668,481 698,481" fill="none" stroke="#35485b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="668,491 698,491" fill="none" stroke="#35485b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="683,491 683,570" fill="none" stroke="#35485b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" data-net="GND"/>
+<text x="706" y="483" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="700" fill="#152638" text-anchor="start">C4ext</text>
+<text x="706" y="505" font-family="Segoe UI,Arial,sans-serif" font-size="17" font-weight="400" fill="#425671" text-anchor="start">100 nF</text>
+<rect x="826" y="293" width="237" height="196" rx="8" fill="#f2f6fa" stroke="#c4d1de" stroke-width="2"/>
+<text x="850" y="350" font-family="Segoe UI,Arial,sans-serif" font-size="30" font-weight="700" fill="#152638" text-anchor="start">ADS1115</text>
+<text x="850" y="375" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="400" fill="#425671" text-anchor="start">I²C · adres 0x48</text>
+<text x="842" y="403" font-family="Segoe UI,Arial,sans-serif" font-size="19" font-weight="700" fill="#087366" text-anchor="start">A0</text>
+<text x="951" y="317" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" fill="#8c5414" text-anchor="middle">VDD</text>
+<text x="904" y="476" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" fill="#35485b" text-anchor="middle">ADDR</text>
+<text x="1011" y="476" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" fill="#35485b" text-anchor="middle">GND</text>
+<text x="1046" y="400" font-family="Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" fill="#255c9a" text-anchor="end">SDA</text>
+<text x="1046" y="436" font-family="Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" fill="#255c9a" text-anchor="end">SCL</text>
+<polyline points="1063,394 1094,394" fill="none" stroke="#255c9a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" data-net="SDA"/>
+<polyline points="1063,430 1094,430" fill="none" stroke="#255c9a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" data-net="SCL"/>
+<circle cx="1094" cy="394" r="4" fill="#ffffff" stroke="#255c9a" stroke-width="2"/>
+<circle cx="1094" cy="430" r="4" fill="#ffffff" stroke="#255c9a" stroke-width="2"/>
+<text x="1106" y="399" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" fill="#255c9a" text-anchor="start">EXT2.10</text>
+<text x="1106" y="435" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" fill="#255c9a" text-anchor="start">EXT2.7</text>
+<text x="951" y="190" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="700" fill="#8c5414" text-anchor="middle">+3,3 V · EXT1.2</text>
+<polyline points="951,204 1057,204" fill="none" stroke="#8c5414" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" data-net="+3,3 V"/>
+<polyline points="951,204 951,293" fill="none" stroke="#8c5414" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" data-net="+3,3 V"/>
+<circle cx="951" cy="204" r="4" fill="#8c5414" stroke="#8c5414" stroke-width="2"/>
+<circle cx="1057" cy="204" r="4" fill="#8c5414" stroke="#8c5414" stroke-width="2"/>
+<polyline points="1057,204 1057,238" fill="none" stroke="#8c5414" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" data-net="+3,3 V"/>
+<polyline points="1042,238 1072,238" fill="none" stroke="#35485b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1042,248 1072,248" fill="none" stroke="#35485b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1057,248 1057,276" fill="none" stroke="#35485b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" data-net="GND"/>
+<polyline points="1044,276 1070,276" fill="none" stroke="#35485b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1049,281 1065,281" fill="none" stroke="#35485b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1054,286 1060,286" fill="none" stroke="#35485b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1079" y="241" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="700" fill="#152638" text-anchor="start">C1ext</text>
+<text x="1079" y="262" font-family="Segoe UI,Arial,sans-serif" font-size="17" font-weight="400" fill="#425671" text-anchor="start">100 nF</text>
+<text x="1079" y="282" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="400" fill="#425671" text-anchor="start">przy VDD</text>
+<polyline points="904,489 904,570" fill="none" stroke="#35485b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" data-net="GND"/>
+<polyline points="1011,489 1011,570" fill="none" stroke="#35485b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" data-net="GND"/>
+<circle cx="205" cy="265" r="4" fill="#ffffff" stroke="#a0352c" stroke-width="2"/>
+<circle cx="350" cy="395" r="4" fill="#ffffff" stroke="#087366" stroke-width="2"/>
+<circle cx="205" cy="485" r="4" fill="#ffffff" stroke="#35485b" stroke-width="2"/>
+<polyline points="205,570 1063,570" fill="none" stroke="#35485b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" data-net="GND"/>
+<circle cx="205" cy="570" r="4" fill="#35485b" stroke="#35485b" stroke-width="2"/>
+<circle cx="563" cy="570" r="4" fill="#35485b" stroke="#35485b" stroke-width="2"/>
+<circle cx="683" cy="570" r="4" fill="#35485b" stroke="#35485b" stroke-width="2"/>
+<circle cx="904" cy="570" r="4" fill="#35485b" stroke="#35485b" stroke-width="2"/>
+<circle cx="1011" cy="570" r="4" fill="#35485b" stroke="#35485b" stroke-width="2"/>
+<polyline points="1063,570 1063,581" fill="none" stroke="#35485b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" data-net="GND"/>
+<polyline points="1050,581 1076,581" fill="none" stroke="#35485b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1055,586 1071,586" fill="none" stroke="#35485b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1060,591 1066,591" fill="none" stroke="#35485b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="92" y="574" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="700" fill="#35485b" text-anchor="start">EXT1.3</text>
+<polyline points="163,570 205,570" fill="none" stroke="#35485b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" data-net="GND"/>
+<text x="693" y="597" font-family="Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" fill="#35485b" text-anchor="middle">Wspólna masa niskiego napięcia</text>
+<polyline points="78,608 1162,608" fill="none" stroke="#c4d1de" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="83" y="633" font-family="Segoe UI,Arial,sans-serif" font-size="17" font-weight="400" fill="#425671" text-anchor="start">Złącze czujnika   czerwony +5 V · zielony OUT · czarny GND</text>
+<text x="1156" y="633" font-family="Segoe UI,Arial,sans-serif" font-size="17" font-weight="400" fill="#425671" text-anchor="end">ADS1115   A1–A3 i ALRT wolne</text>
+<text x="69" y="712" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="700" fill="#152638" text-anchor="start">Złącza Olimexa</text>
+<text x="1165" y="710" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="400" fill="#425671" text-anchor="end">Widok poglądowy z góry</text>
+<rect x="76" y="768" width="1088" height="124" rx="8" fill="#f2f6fa" stroke="#c4d1de" stroke-width="2"/>
+<rect x="99" y="793" width="152" height="74" rx="5" fill="#ffffff" stroke="#889caf" stroke-width="2"/>
+<text x="175" y="823" font-family="Segoe UI,Arial,sans-serif" font-size="20" font-weight="700" fill="#152638" text-anchor="middle">RJ45</text>
+<text x="175" y="849" font-family="Segoe UI,Arial,sans-serif" font-size="17" font-weight="400" fill="#425671" text-anchor="middle">PoE 802.3af</text>
+<rect x="1000" y="793" width="141" height="74" rx="5" fill="#ffffff" stroke="#889caf" stroke-width="2"/>
+<text x="1071" y="838" font-family="Segoe UI,Arial,sans-serif" font-size="19" font-weight="700" fill="#425671" text-anchor="middle">Antena</text>
+<text x="277" y="793" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="700" fill="#152638" text-anchor="start">EXT1</text>
+<text x="277" y="884" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="700" fill="#152638" text-anchor="start">EXT2</text>
+<circle cx="359" cy="787" r="15" fill="#ffffff" stroke="#889caf" stroke-width="2"/>
+<text x="359" y="792" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#889caf" text-anchor="middle">10</text>
+<circle cx="359" cy="876" r="15" fill="#ffffff" stroke="#255c9a" stroke-width="2"/>
+<text x="359" y="881" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#255c9a" text-anchor="middle">10</text>
+<circle cx="422" cy="787" r="15" fill="#ffffff" stroke="#889caf" stroke-width="2"/>
+<text x="422" y="792" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#889caf" text-anchor="middle">9</text>
+<circle cx="422" cy="876" r="15" fill="#ffffff" stroke="#889caf" stroke-width="2"/>
+<text x="422" y="881" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#889caf" text-anchor="middle">9</text>
+<circle cx="485" cy="787" r="15" fill="#ffffff" stroke="#889caf" stroke-width="2"/>
+<text x="485" y="792" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#889caf" text-anchor="middle">8</text>
+<circle cx="485" cy="876" r="15" fill="#ffffff" stroke="#889caf" stroke-width="2"/>
+<text x="485" y="881" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#889caf" text-anchor="middle">8</text>
+<circle cx="548" cy="787" r="15" fill="#ffffff" stroke="#889caf" stroke-width="2"/>
+<text x="548" y="792" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#889caf" text-anchor="middle">7</text>
+<circle cx="548" cy="876" r="15" fill="#ffffff" stroke="#255c9a" stroke-width="2"/>
+<text x="548" y="881" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#255c9a" text-anchor="middle">7</text>
+<circle cx="611" cy="787" r="15" fill="#ffffff" stroke="#889caf" stroke-width="2"/>
+<text x="611" y="792" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#889caf" text-anchor="middle">6</text>
+<circle cx="611" cy="876" r="15" fill="#ffffff" stroke="#889caf" stroke-width="2"/>
+<text x="611" y="881" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#889caf" text-anchor="middle">6</text>
+<circle cx="674" cy="787" r="15" fill="#ffffff" stroke="#889caf" stroke-width="2"/>
+<text x="674" y="792" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#889caf" text-anchor="middle">5</text>
+<circle cx="674" cy="876" r="15" fill="#ffffff" stroke="#889caf" stroke-width="2"/>
+<text x="674" y="881" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#889caf" text-anchor="middle">5</text>
+<circle cx="737" cy="787" r="15" fill="#ffffff" stroke="#889caf" stroke-width="2"/>
+<text x="737" y="792" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#889caf" text-anchor="middle">4</text>
+<circle cx="737" cy="876" r="15" fill="#ffffff" stroke="#889caf" stroke-width="2"/>
+<text x="737" y="881" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#889caf" text-anchor="middle">4</text>
+<circle cx="800" cy="787" r="15" fill="#ffffff" stroke="#35485b" stroke-width="2"/>
+<text x="800" y="792" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#35485b" text-anchor="middle">3</text>
+<circle cx="800" cy="876" r="15" fill="#ffffff" stroke="#889caf" stroke-width="2"/>
+<text x="800" y="881" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#889caf" text-anchor="middle">3</text>
+<circle cx="863" cy="787" r="15" fill="#ffffff" stroke="#8c5414" stroke-width="2"/>
+<text x="863" y="792" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#8c5414" text-anchor="middle">2</text>
+<circle cx="863" cy="876" r="15" fill="#ffffff" stroke="#889caf" stroke-width="2"/>
+<text x="863" y="881" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#889caf" text-anchor="middle">2</text>
+<rect x="911" y="772" width="30" height="30" rx="0" fill="#ffffff" stroke="#a0352c" stroke-width="3"/>
+<text x="926" y="792" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#a0352c" text-anchor="middle">1</text>
+<rect x="911" y="861" width="30" height="30" rx="0" fill="#ffffff" stroke="#889caf" stroke-width="3"/>
+<text x="926" y="881" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#889caf" text-anchor="middle">1</text>
+<text x="926" y="749" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="700" fill="#a0352c" text-anchor="middle">+5 V</text>
+<polyline points="926,755 926,770" fill="none" stroke="#a0352c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="863" y="749" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="700" fill="#8c5414" text-anchor="middle">+3,3 V</text>
+<polyline points="863,755 863,770" fill="none" stroke="#8c5414" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="800" y="749" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="700" fill="#35485b" text-anchor="middle">GND</text>
+<polyline points="800,755 800,770" fill="none" stroke="#35485b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="359,893 359,904" fill="none" stroke="#255c9a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="359" y="925" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="700" fill="#255c9a" text-anchor="middle">GPIO13 · SDA</text>
+<polyline points="548,893 548,904" fill="none" stroke="#255c9a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="548" y="925" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="700" fill="#255c9a" text-anchor="middle">GPIO16 · SCL</text>
+<text x="630" y="826" font-family="Segoe UI,Arial,sans-serif" font-size="22" font-weight="700" fill="#152638" text-anchor="middle">ESP32-POE-ISO Rev.M</text>
+<text x="630" y="851" font-family="Segoe UI,Arial,sans-serif" font-size="17" font-weight="400" fill="#425671" text-anchor="middle">UEXT wolne</text>
+<text x="1164" y="925" font-family="Segoe UI,Arial,sans-serif" font-size="17" font-weight="400" fill="#425671" text-anchor="end">Kwadratowe pola oznaczają pin 1.</text>
+<text x="45" y="981" font-family="Segoe UI,Arial,sans-serif" font-size="17" font-weight="400" fill="#425671" text-anchor="start">GPIO17 jest zegarem Ethernetu.</text>
+</svg>
