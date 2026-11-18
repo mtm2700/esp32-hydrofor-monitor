@@ -4,6 +4,14 @@ This DIY monitor records water pressure in a well-pump pressure tank system usin
 
 [Polska instrukcja](docs/instrukcja-pl.md) · [Parts list](docs/parts.md) · [ESPHome example](esphome/hydrofor-monitor.example.yaml)
 
+## Module photos
+
+<img src="docs/photos/05-hydrofor-enclosure-cover.jpg" alt="Pressure monitoring module with the clear cover screwed in place" width="600">
+
+The pressure monitoring module in its enclosure with the clear cover screwed in place.
+
+[Photo gallery with English and Polish captions](docs/photos/README.md) — five views of the enclosure, boards, voltage divider and solder side.
+
 ## Wiring and assembly
 
 | Drawing | English | Polski |
@@ -33,4 +41,4 @@ The device provides monitoring only. Use independent pump control and hydraulic 
 
 ## Documentation still in progress
 
-The Polish guide includes the wiring map, commissioning sequence and troubleshooting. Remaining work includes photographs cleared for sharing, and a reference for the exact transducer and its wetted materials.
+The Polish guide includes the wiring map, commissioning sequence and troubleshooting. Remaining work includes a reference for the exact transducer and its wetted materials.
