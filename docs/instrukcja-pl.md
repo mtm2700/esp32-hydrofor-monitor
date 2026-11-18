@@ -4,6 +4,8 @@ Moduł pokazuje w Home Assistant napięcie z toru pomiarowego i ciśnienie wody 
 
 ## Sprzęt i połączenia
 
+[Schemat połączeń (SVG)](hydrofor-schemat-polaczen.svg) · [Mapa montażowa Olimex Rev.M (PDF A4)](hydrofor-mapa-montazowa-a4.pdf)
+
 Lista podzespołów i ich status są w [liście części](parts.md). Mapa dotyczy Olimex ESP32-POE-ISO **Rev.M z ESP32-WROOM-32E**. Odczytaj wariant z metalowej osłony modułu. Nadruk `ESP32-WROVER` na czerwonej płytce odnosi się do oznaczenia PCB.
 
 | Sygnał | Połączenie w opisanym wariancie |
