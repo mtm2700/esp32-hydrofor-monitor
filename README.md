@@ -4,6 +4,13 @@ This DIY monitor records water pressure in a well-pump pressure tank system usin
 
 [Polska instrukcja](docs/instrukcja-pl.md) · [Parts list](docs/parts.md) · [ESPHome example](esphome/hydrofor-monitor.example.yaml)
 
+## Wiring and assembly
+
+- [Wiring schematic (SVG)](docs/hydrofor-schemat-polaczen.svg)
+- [Olimex Rev.M connector map (A4 PDF)](docs/hydrofor-mapa-montazowa-a4.pdf)
+
+The drawings use Polish labels. **Czujnik ciśnienia** means pressure transducer, **wspólna masa** means common ground, and **widok z góry** means top view. The map shows the RJ45 jack on the left and the antenna on the right.
+
 ## How it works
 
 1. A 5 V pressure transducer with a nominal 0–150 psi range outputs 0.5–4.5 V.
@@ -22,4 +29,4 @@ The device provides monitoring only. Use independent pump control and hydraulic 
 
 ## Documentation still in progress
 
-The Polish guide includes the wiring map, commissioning sequence and troubleshooting. Remaining work includes an annotated wiring diagram, photographs cleared for sharing, and a reference for the exact transducer and its wetted materials.
+The Polish guide includes the wiring map, commissioning sequence and troubleshooting. Remaining work includes photographs cleared for sharing, and a reference for the exact transducer and its wetted materials.
