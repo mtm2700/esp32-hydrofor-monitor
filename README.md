@@ -6,10 +6,14 @@ This DIY monitor records water pressure in a well-pump pressure tank system usin
 
 ## Wiring and assembly
 
-- [Wiring schematic (SVG)](docs/hydrofor-schemat-polaczen.svg)
-- [Olimex Rev.M connector map (A4 PDF)](docs/hydrofor-mapa-montazowa-a4.pdf)
+| Drawing | English | Polski |
+|---|---|---|
+| Wiring schematic | [SVG](docs/hydrofor-schemat-polaczen-en.svg) | [SVG](docs/hydrofor-schemat-polaczen-pl.svg) |
+| Olimex Rev.M connector map, A4 | [PDF](docs/hydrofor-mapa-montazowa-en-a4.pdf) | [PDF](docs/hydrofor-mapa-montazowa-pl-a4.pdf) |
+| Voltage divider and A0 filter | [SVG](docs/hydrofor-dzielnik-a0-en.svg) | [SVG](docs/hydrofor-dzielnik-a0-pl.svg) |
+| Illustrated wiring overview | [SVG](docs/hydrofor-widok-modulu-en.svg) | [SVG](docs/hydrofor-widok-modulu-pl.svg) |
 
-The drawings use Polish labels. **Czujnik ciśnienia** means pressure transducer, **wspólna masa** means common ground, and **widok z góry** means top view. The map shows the RJ45 jack on the left and the antenna on the right.
+The overview shows the wiring by function. Sensor terminal order is illustrative. Use the A4 connector map to locate the Olimex pins.
 
 ## How it works
 
