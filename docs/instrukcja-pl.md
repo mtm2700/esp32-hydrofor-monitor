@@ -2,6 +2,10 @@
 
 Moduł pokazuje w Home Assistant napięcie z toru pomiarowego i ciśnienie wody w barach. Historia pozwala prześledzić cykle ciśnienia przy poborze wody. Sterowanie pompą i zabezpieczenia hydrauliczne działają niezależnie od monitora.
 
+## Zdjęcia modułu
+
+[Galeria pięciu zdjęć z podpisami PL/EN](photos/README.md) przedstawia wnętrze modułu, płytkę Olimex, dzielnik napięcia, stronę lutowania oraz moduł z przykręconą przezroczystą pokrywą.
+
 ## Sprzęt i połączenia
 
 | Rysunek | Polski | English |
