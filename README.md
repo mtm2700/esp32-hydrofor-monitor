@@ -2,7 +2,7 @@
 
 This DIY monitor records water pressure in a well-pump pressure tank system using an ESP32, an ADS1115 and Home Assistant. The pressure history shows how the system behaves during water use and helps spot sustained pressure changes, missing readings and unusually frequent pressure cycles.
 
-[Polska instrukcja](docs/instrukcja-pl.md) · [Parts list](docs/parts.md) · [ESPHome example](esphome/hydrofor-monitor.example.yaml)
+[English setup guide](docs/guide-en.md) · [Polska instrukcja](docs/instrukcja-pl.md) · [Parts list](docs/parts.md) · [ESPHome example](esphome/hydrofor-monitor.example.yaml)
 
 ## Module photos
 
@@ -41,4 +41,5 @@ The device provides monitoring only. Use independent pump control and hydraulic 
 
 ## Documentation still in progress
 
-The Polish guide includes the wiring map, commissioning sequence and troubleshooting. Remaining work includes a reference for the exact transducer and its wetted materials.
+The [English setup guide](docs/guide-en.md) and [Polish guide](docs/instrukcja-pl.md) cover wiring, ESPHome setup, first flashing, Home Assistant integration, gauge comparison and troubleshooting. Remaining work includes a reference for the exact transducer and its wetted materials.
+

@@ -1,5 +1,7 @@
 # Monitor ciśnienia hydroforu
 
+[English setup guide](guide-en.md) · [README](../README.md)
+
 Moduł pokazuje w Home Assistant napięcie z toru pomiarowego i ciśnienie wody w barach. Historia pozwala prześledzić cykle ciśnienia przy poborze wody. Sterowanie pompą i zabezpieczenia hydrauliczne działają niezależnie od monitora.
 
 ## Zdjęcia modułu
@@ -60,3 +62,4 @@ ESPHome stosuje dwa nominalne punkty, 0,25 V → 0 bar i 2,25 V → 10,34213594 
 | Alarm częstych cykli | Zestaw historię z rzeczywistym poborem. W opisanej instalacji takie alarmy wystąpiły podczas zwykłego korzystania z wody. Sam zapis ciśnienia nie mierzy startów silnika. |
 
 [Dokumentacja ADS1115 w ESPHome](https://esphome.io/components/sensor/ads1115/) · [Filtry sensorów ESPHome](https://esphome.io/components/sensor/)
+
