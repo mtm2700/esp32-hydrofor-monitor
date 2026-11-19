@@ -43,3 +43,10 @@ The device provides monitoring only. Use independent pump control and hydraulic 
 
 The [English setup guide](docs/guide-en.md) and [Polish guide](docs/instrukcja-pl.md) cover wiring, ESPHome setup, first flashing, Home Assistant integration, gauge comparison and troubleshooting. Remaining work includes a reference for the exact transducer and its wetted materials.
 
+## Licensing
+
+- **Code and configuration**, including original code/configuration examples in the documentation: [MIT](LICENSES/MIT.txt).
+- **Instructions, schematics and photos**, excluding those code/configuration examples: [CC BY 4.0](LICENSES/CC-BY-4.0.txt).
+
+Copyright (c) 2026 mtm2700. See [license scope and attribution / zakres licencji i zasady podpisywania](LICENSE.md) for the file categories and reuse details. Third-party materials retain their own rights and licenses.
+
